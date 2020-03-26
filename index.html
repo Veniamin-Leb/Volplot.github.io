@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+
+ <html lang="ru">
+  <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+     <link rel="stylesheet" href="assets/Style.css">
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+     <title> Вологодский Плотник </title>
+  </head>
+<body>
+   <div class="sait">
+    <header class="header" id="header">
+      <div class="lock">
+        <div class="maxmenu">
+         <div class="podmenu">
+
+          <div class="logo">
+           <img class="logo_img" src="assets/Images/logo_01.png" alt="" >
+          </div>
+          <div class="text">
+               Качество, проверенное поколениями
+              </div>
+          <div class="nav" id="nav">
+        <p><a class="nav_link" href="#">О Компании</a></p>
+        <p><a class="nav_link" href="#">Проекты</a></p>
+        <p><a class="nav_link" href="#">Наши Работы</a></p>
+        <p><a class="nav_link" href="#">Отзывы</a></p>
+        <p><a class="nav_link" href="#">Новости</a></p>
+        <p><a class="nav_link" href="#">Контакты</a></p>
+                </div>
+          <button class="burger" id="navToggle">
+                   <img class="burger_img" src="assets/Images/burger.png" alt="">
+                </button>
+          <div class="number">
+                    8 800 2000 679
+                </div>
+          <div class="time">
+                    пн - пт с 9:00 по 18:00
+                </div>
+          <div class="zvonok" >
+             <a class="nav_link" href="#">Обратный звонок</a>
+             </div>
+
+         </div>
+       </div>
+        <div class="zakaz">
+            <div class="sh"> Поделиться проектом: </div>
+            <div class="sh_log">
+
+                <a class="sh_log_href" href="#">
+       <img class="social_size" src="assets/Images/vk.png" alt="">
+                </a>
+                <a class="sh_log_href" href="#">
+       <img class="social_size" src="assets/Images/odn.png"  alt="">
+                </a>
+                <a class="sh_log_href" href="#">
+       <img class="social_size" src="assets/Images/fb.png"  alt="">
+                </a>
+                <a class="sh_log_href" href="#">
+        <img class="social_size" src="assets/Images/133.png"  alt="">
+                </a>
+
+            </div>
+            <div class="razm">
+
+                <div class="razm_img">
+            <img src="assets/Images/par.png" alt="">
+        </div>
+                <div class="par">
+
+                    <p class="h1">Размеры:</p>
+                    <p class="h2">12,0 м x 9,5 м</p>
+                    <p class="h1">Общая площадь:</p>
+                    <p class="h2">153 м2</p>
+                    <p class="h1">Этажность:</p>
+                    <p class="h2">2 этажа</p>
+                    <p class="h1">Диаметр бревна:</p>
+                    <p class="h2">1,5 м</p>
+
+            </div>
+
+            </div>
+            <div class="cena">
+            <p class="h1"> Цена за допкомплект: </p>
+            <p class="h4"> 1 200 000 руб. </p>
+            <a class="btn  btn--act" href="#"> Заказать смету </a>
+            <p class="h3"> Проект «На озере» - чудесное решение для южных широт нашей страны. Большие площади остекления откроют чудесные виды на живописные пляжи, а террасы создадут непередаваемую атмосферу  для ужинов и завтраков. </p>
+
+         </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="osnova" id="osnova">
+
+     <div class="content">
+
+<!-- Проект дома на озере      -->
+         <div class="proj_d">
+           <div class="proj_dd">
+
+             <div class="proj_d__text">
+                 <div class="proj_d__text1">
+                     <a  class="proj_d__text1_h" href="#">Главная</a>
+                     <img class="arrow" src="assets/Images/arrow.png" alt="">
+                     <a  class="proj_d__text1_h" href="#">Проекты</a>
+                 </div>
+                 <div class="proj_d__text2">
+                     Проект дома "На озере"
+                 </div>
+             </div>
+             <div class="proj_d__menu">
+
+                <div class="proj_d_mltmd">
+
+                  <div class="proj_d__prosm">
+
+                     <div class="container">
+  <div class="mySlides">
+      <img src="assets/Images/sld1/01.jpg" style="width:100%" alt="">
+  </div>
+  <div class="mySlides">
+      <img src="assets/Images/sld1/02.png" style="width:100%" alt="">
+  </div>
+  <div class="mySlides">
+      <img src="assets/Images/sld1/03.png" style="width:100%" alt="">
+  </div>
+  <div class="mySlides">
+      <img src="assets/Images/sld1/04.png" style="width:100%" alt="">
+  </div>
+  <!-- Thumbnail images -->
+  <div class="row">
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+    <div class="column">
+      <img class="demo cursor" src="assets/Images/sld1/01.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/Images/sld1/02.png" style="width:100%" onclick="currentSlide(2)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/Images/sld1/03.png" style="width:100%" onclick="currentSlide(3)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/Images/sld1/04.png" style="width:100%" onclick="currentSlide(4)" alt="">
+    </div>
+
+
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+</div>
+
+                  </div>
+
+                  <div class="zakaz_2">
+
+                    <div class="sh"> Поделиться проектом: </div>
+                    <div class="sh_log">
+                <a class="sh_log_href" href="#">
+       <img class="social_size" src="assets/Images/vk.png" alt="">
+                </a>
+                <a class="sh_log_href" href="#">
+       <img class="social_size" src="assets/Images/odn.png" alt="">
+                </a>
+                <a class="sh_log_href" href="#">
+       <img class="social_size" src="assets/Images/fb.png" alt="">
+                </a>
+                <a class="sh_log_href" href="#">
+        <img class="social_size" src="assets/Images/133.png" alt="">
+                </a>
+            </div>
+                    <div class="razm">
+
+                    <div class="razm_img">
+                        <img src="assets/Images/par.png" alt="">
+                    </div>
+
+            <div class="par">
+
+                    <p class="h1">Размеры:</p>
+                    <p class="h2">12,0 м x 9,5 м</p>
+                    <p class="h1">Общая площадь:</p>
+                    <p class="h2">153 м2</p>
+                    <p class="h1">Этажность:</p>
+                    <p class="h2">2 этажа</p>
+                    <p class="h1">Диаметр бревна:</p>
+                    <p class="h2">1,5 м</p>
+
+            </div>
+          </div>
+                    <div class="cena">
+            <p class="h1"> Цена за допкомплект: </p>
+            <p class="h4"> 1 200 000 руб. </p>
+            <a class="btn  btn--act" href="#"> Заказать смету </a>
+            <p class="h3"> Проект «На озере» - чудесное решение для южных широт нашей страны. Большие площади остекления откроют чудесные виды на живописные пляжи, а террасы создадут непередаваемую атмосферу  для ужинов и завтраков. </p>
+
+         </div>
+
+                  </div>
+
+                </div>
+
+                <div class="proj_d__ico">
+
+                 <div class="etaz1">
+                 <p class="h1"> 1 Этаж </p>
+                     <div class="proj_d__ico_o">
+                 <img class="etaz_img" src="assets/Images/etazh1n.png" alt="">
+                     </div>
+                 </div>
+                 <div class="etaz2">
+                 <p class="h1"> 2 Этаж </p>
+                     <div>
+                 <img class="etaz_img" src="assets/Images/etazhn2.png" alt="">
+                      </div>
+                 </div>
+             </div>
+                <div class="zakaz_3">
+
+                    <div class="sh"> Поделиться проектом: </div>
+                    <div class="sh_log">
+                <a class="sh_log_href" href="#">
+       <img class="social_size" src="assets/Images/vk.png" alt="">
+                </a>
+                <a class="sh_log_href" href="#">
+       <img class="social_size" src="assets/Images/odn.png" alt="">
+                </a>
+                <a class="sh_log_href" href="#">
+       <img class="social_size" src="assets/Images/fb.png" alt="">
+                </a>
+                <a class="sh_log_href" href="#">
+        <img class="social_size" src="assets/Images/133.png" alt="">
+                </a>
+            </div>
+                    <div class="razm">
+
+                    <div class="razm_img">
+                        <img src="assets/Images/par.png" alt="">
+                    </div>
+
+            <div class="par">
+
+                    <p class="h1">Размеры:</p>
+                    <p class="h2">12,0 м x 9,5 м</p>
+                    <p class="h1">Общая площадь:</p>
+                    <p class="h2">153 м2</p>
+                    <p class="h1">Этажность:</p>
+                    <p class="h2">2 этажа</p>
+                    <p class="h1">Диаметр бревна:</p>
+                    <p class="h2">1,5 м</p>
+
+            </div>
+          </div>
+                    <div class="cena">
+            <p class="h1"> Цена за допкомплект: </p>
+            <p class="h4"> 1 200 000 руб. </p>
+            <a class="btn  btn--act" href="#"> Заказать смету </a>
+            <p class="h3"> Проект «На озере» - чудесное решение для южных широт нашей страны. Большие площади остекления откроют чудесные виды на живописные пляжи, а террасы создадут непередаваемую атмосферу  для ужинов и завтраков. </p>
+
+         </div>
+
+                  </div>
+
+             </div>
+
+           </div>
+         </div>
+<!-- Комплектация      -->
+         <div class="srav">
+
+          <div class="srav_1">
+
+            <div class="srav_1_logo">
+
+                <div class="srav_1_logo_img">
+                  <img src="assets/Images/icl.png" alt="">
+                </div>
+                <div class="srav_1_logo_txt">
+                     Комплектация "Базовая"
+                   (домокомплект)
+                </div>
+
+            </div>
+            <div class="srav_1_text">
+<p class="srav_1_text_w">Рубленый стеновой комплект сруб в чашу</p>
+<p class="srav_1_text_d">Баки половые брус  100 на 200 </p>
+<p class="srav_1_text_w">Пере... межэтажный брус 150 на 200 </p>
+<p class="srav_1_text_d">Межвенцовый утеплитель (...) </p>
+<p class="srav_1_text_w">Стропила </p>
+<p class="srav_1_text_d">Обрешетка </p>
+<p class="srav_1_text_w">Нигеля березовые </p>
+<p class="srav_1_text_d">Рубероид, ... ... кровля </p>
+<p class="srav_1_text_w">Метизы </p>
+             </div>
+            <div class="srav_1_ich">
+             <a href="#" class="srav_1_ico srav_1_hrev"> 1 200 000 руб. </a>
+            </div>
+
+          </div>
+          <div class="srav_2">
+
+             <div class="srav_2_logo">
+
+                 <div class="srav_2_logo_img">
+                  <img src="assets/Images/icr.png" alt="">
+                </div>
+                 <div class="srav_2_logo_txt">
+                     Комплектация "Оптимальная"
+(домокомплект + монтаж)
+                </div>
+
+             </div>
+             <div class="srav_2_text">
+
+<p class="srav_2_text_w">Укладка межвенцового утеплителя</p>
+<p class="srav_2_text_d">Устройство стропильной системы </p>
+<p class="srav_2_text_w">Пере... межэтажный брус 150 на 200 </p>
+<p class="srav_2_text_d">Межвенцовый утеплитель (...) </p>
+<p class="srav_2_text_w">Стропила </p>
+<p class="srav_2_text_d">Обрешетка </p>
+<p class="srav_2_text_w">Нигеля березовые </p>
+<p class="srav_2_text_d">Сборка  стенового комплекта </p>
+<p class="srav_2_text_w">Монтаж балок пола </p>
+<p class="srav_2_text_d">Монтаж межэтажный балок </p>
+<p class="srav_2_text_w">Укладка гидро... </p>
+
+             </div>
+             <div class="srav_2_ich">
+             <a href="#" class="srav_2_ico srav_2_hrev"> 1 690 000 руб. </a>
+             </div>
+
+          </div>
+
+         </div>
+<!-- Доставка      -->
+         <div class="car">
+            <div class="car_bg">
+              <div class="car_st">
+
+                  <p class="car_h1">Доставка</p>
+                  <p class="car_h2">Чтобы  доставить  домокоплект  по данному проекту  необходимо <span style="font-weight: 700">   4 единицы техники</span></p>
+
+                  <div class="car_img">
+
+                      <img class="car_img_st" src="assets/Images/car.png" alt="">
+                      <img class="car_img_st" src="assets/Images/car.png" alt="">
+                      <img class="car_img_st" src="assets/Images/car.png" alt="">
+                      <img class="car_img_st" src="assets/Images/car.png" alt="">
+
+                   </div>
+
+                  <p class="car_h2">Стоимость  достави - <span style="font-weight: 700">80 рублей </span> за один километр</p>
+
+              </div>
+            </div>
+         </div>
+<!-- Описание проекта      -->
+         <div class="opis">
+
+             <p class="car_h1">Описание проекта</p>
+             <p class="opis_h2">Проект «Волна» - чудесное решение для южных широт нашей страны. Большие площади остекления откроют чудесные виды на живописные пляжи, а террасы создадут непередаваемую атмосферу  для ужинов и завтраков.</p>
+
+            <div class="img-comp-container">
+
+              <div class="img-comp-img">
+
+    <img src="assets/Images/sld2/02.jpg" class="img_wih_st" alt="">
+
+  </div>
+              <div class="img-comp-img img-comp-overlay">
+
+    <img src="assets/Images/sld2/01.jpg" class="img_wih_st" alt="">
+
+              </div>
+
+            </div>
+
+         </div>
+<!-- По этому проекту построены дома      -->
+         <div class="postr">
+
+             <p class="car_h1">По  даному проекту были построены дома</p>
+
+             <div class="postr_mlt">
+                 <div class="postr_mlt_pdf">
+
+
+                     <div class="postr_mlt_pdf_1">
+
+                         <img src="assets/Images/prl.jpg" alt="">
+                         <p>Вологодская область,</p>
+                         <p class="postr_mlt_pdf_1_t">д. Капустино</p>
+                         <div class="postr_mlt_pdf_1_pdf">
+
+                         <a class="pdf" href="#"> <img src="assets/Images/pdfl.png" alt=""> </a>
+                         <div>
+                 <p class="pdf_b">PDF</p>
+                         </div>
+
+                         </div>
+
+                     </div>
+                     <div class="postr_mlt_pdf_2">
+
+                         <img src="assets/Images/prr.jpg" alt="">
+                         <p>Вологодская область,</p>
+                         <p class="postr_mlt_pdf_1_t">д. Капустино</p>
+                         <div class="postr_mlt_pdf_1_pdf">
+
+                             <a class="pdf" href="#"> <img src="assets/Images/pdfr.jpg" alt=""> </a>
+                             <div>
+                 <p class="pdf_b">PDF</p>
+                     </div>
+
+                         </div>
+
+                     </div>
+                     <div class="postr_mlt_plst">
+
+                       <div class="postr_mlt_tex">
+                           <p class="postr_mlt_tex"> Вологодская область, село Устье-Кубенское </p>
+                       </div>
+                       <div class="postr_img">
+
+                 <div class="bkg"><img  class="bkg-img" src="assets/Images/sld2/galery.png" alt=""></div>
+                 <img class="mlt_plst_2" src="assets/Images/sld2/03.jpg" alt="">
+
+                        </div>
+
+                     </div>
+
+                     <div class="postr_mlt_pdf_2_ph">
+
+                         <img src="assets/Images/prr.jpg" alt="">
+                         <p class="postr_mlt_pdf_1_t" >Вологодская область,  д. Капустино</p>
+
+                         <div class="postr_mlt_pdf_1_pdf">
+
+                             <a class="pdf" href="#"> <img src="assets/Images/pdfr.jpg" alt=""> </a>
+                             <div>
+                 <p class="pdf_b">PDF</p>
+                     </div>
+
+                         </div>
+
+                     </div>
+
+                 </div>
+             </div>
+
+         </div>
+<!-- Галерея      -->
+         <div class="gal">
+
+             <div class="gal_img">
+                 <img src="assets/Images/gal/01.jpg" alt="">
+             </div>
+
+             <div class="gal_img">
+                 <img class="gal_img_st" src="assets/Images/gal/02.jpg" alt="">
+             </div>
+
+             <div class="gal_img">
+                 <img class="gal_img_st"  src="assets/Images/gal/03.jpg" alt="">
+             </div>
+
+             <div class="gal_img">
+                 <img class="gal_img_st"  src="assets/Images/gal/04.jpg" alt="">
+             </div>
+
+             <div class="gal_img">
+                 <img class="gal_img_st"  src="assets/Images/gal/05.jpg" alt="">
+             </div>
+
+             <div class="gal_img">
+                 <img class="gal_img_st"  src="assets/Images/gal/06.jpg" alt="">
+             </div>
+
+             <div class="gal_img">
+                 <img class="gal_img_st"  src="assets/Images/gal/07.jpg" alt="">
+             </div>
+
+             <div class="gal_img">
+                 <img class="gal_img_st"  src="assets/Images/gal/08.jpg" alt="">
+             </div>
+
+         </div>
+
+     </div>
+       <!-- Подвал      -->
+     <div class="podv">
+       <div class="podv_l">
+         <div class="proisv">
+             <p class="podv_b">Производство</p>
+             <p>Рубленное бревно</p>
+             <p>Оцилиндрованное бревно</p>
+             <p>Дома из бруса</p>
+             <p>Дома из оцилиндрованного бревна</p>
+             <p>Дома из клееного бруса</p>
+         </div>
+         <div class="proeckt">
+             <p class="podv_b">Проект</p>
+             <p>Дома</p>
+             <p>Бани</p>
+             <p>Малые формы</p>
+         </div>
+        </div>
+       <div class="podv_r">
+
+           <div class="prsofc">
+              <div class="prs">
+                  <div class="minico">
+                  <img src="assets/Images/gps.png" alt="">
+                  </div>
+                  <div>
+           <p class="prs_b">Производство: </p>
+           <p class="prs_n">162220 Вологодская область, </p>
+           <p class="prs_g">Сямжа с. ул. Парковая д. 6 </p>
+                  </div>
+           </div>
+              <div class="ofc">
+           <p class="prs_b">Офис: </p>
+           <p class="prs_n">160000 Вологодская область, </p>
+           <p class="prs_g">г. Вологда . ул. Мира 8 </p>
+           </div>
+           </div>
+           <div class="numsoc">
+              <div class="num">
+                 <div class="minico">
+           <img src="assets/Images/ph.png" alt="">
+                 </div>
+                <div>
+           <p class="prs_b">8 800 2000-679 </p>
+           <p class="prs_n">Ежедневно с 08:00 до 23:00 </p>
+           <p class="prs_g">srub@nord-srub.ru </p>
+                </div>
+           </div>
+              <div class="soc">
+
+                  <a class="soc_ico" href="#"><img src="assets/Images/vkont.png" alt=""></a>
+                  <a class="soc_ico" href="#"><img src="assets/Images/inst.png" alt=""></a>
+                  <a class="soc_ico" href="#"><img src="assets/Images/faceb.png" alt=""></a>
+
+              </div>
+           </div>
+
+       </div>
+     </div>
+     <div class="sinaps">
+        <div class="vp">© СК "Вологодский плотник" © 2010 — 2017
+Все права защищены.</div>
+        <div class="sin">
+         <img src="assets/Images/sin.png" alt="">
+            <a class="sin_txt" href="#">- Создание сайта </a>
+         </div>
+     </div>
+
+     </div>
+
+    </div>
+
+     <script src="app.js"></script>
+
+     <script> initComparisons();</script>
+    </body>
+</html>
